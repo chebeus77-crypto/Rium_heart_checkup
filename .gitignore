@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Output documents (환자 개인정보 보호)
+output/
+*.docx
+!template.docx
+*.pdf
+
+# Streamlit local credentials
+.streamlit/credentials.toml

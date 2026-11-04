@@ -1,0 +1,22 @@
+[project]
+name = "heart-report"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chebeus77-crypto", email = "chebeus77@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "docxtpl>=0.20.2",
+    "python-docx>=1.2.0",
+    "pywin32>=312",
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+heart-report = "heart_report:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
